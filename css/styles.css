@@ -25,6 +25,19 @@ li a:hover {
   background-color: #111;
 
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 .area{
   border-style: groove;
 }
+.text{
+  font-size: 15px;
+}
+
+.projecttitle{
+  font-size: 20px;
+}
+
