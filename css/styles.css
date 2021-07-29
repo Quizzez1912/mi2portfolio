@@ -1,4 +1,8 @@
-ul {
+.bodybg{
+  background-color:#F4FAFF;
+}
+
+.headerul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,10 +10,16 @@ ul {
   
 }
 
+/*Headline Portfolio*/
+.headline {
+  font-size: 40px;
+
+}
+
 .header {
   background-color: #353b3c;
-  
 }
+
 
 .links {
   text-align: center;
@@ -21,6 +31,11 @@ ul {
   color: inherit;
   padding: 10px 50px;
 }
+
+.links p {
+  padding: 0px 50px;
+}
+
 
 li {
   float: left;
@@ -46,6 +61,9 @@ img {
 .area{
   border-style: groove;
 }
+
+/* Basic text of the website*/
+
 .text{
   font-size: 15px;
 }
