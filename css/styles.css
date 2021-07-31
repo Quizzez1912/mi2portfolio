@@ -1,5 +1,5 @@
 .bodybg{
-  background-color:#F4FAFF;
+  background-color:#F7F5FB;
 }
 
 .headerul {
@@ -13,11 +13,12 @@
 /*Headline Portfolio*/
 .headline {
   font-size: 40px;
-
+  color: #000000;
+  margin-top:15px;
 }
 
 .header {
-  background-color: #353b3c;
+  background-color: #1d1d1d;
 }
 
 
@@ -66,9 +67,29 @@ img {
 
 .text{
   font-size: 15px;
+  color: #000000;
 }
 
 .projecttitle{
   font-size: 20px;
 }
 
+.col{
+  margin-top:5px;
+}
+
+footer{
+  list-style-type: none;
+  border-top: 1px solid black;
+  color: black;
+  clear: both;
+    position: relative;
+    height: 25px;
+    bottom: 0 ;
+    
+}
+
+.footeraboutme{
+  position:absolute;
+  bottom:0;
+}
