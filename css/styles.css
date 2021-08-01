@@ -1,19 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .bodybg {
   background-color: #F7F5FB;
 }
 
 .headerul {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 
+
 }
 
 /*Headline Portfolio*/
 .headline {
-  font-size: 40px;
-  font-weight: 600;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
   color: #000000;
   margin-top: 15px;
 }
@@ -21,6 +27,13 @@
 .header {
   background-color: #1d1d1d;
 }
+
+.homeheader {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  color: #000000;
+}
+
 
 .links {
   text-align: center;
@@ -30,7 +43,7 @@
 .links a {
   text-decoration: none;
   color: inherit;
- 
+
 }
 
 .links p {
@@ -67,7 +80,8 @@ img {
 /* Basic text of the website*/
 
 .text {
-  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
   color: #000000;
   text-align: justify;
 }
@@ -98,26 +112,45 @@ footer {
 }
 
 .source {
-  font-size:20px;
+  font-size: 20px;
   text-align: center;
-  margin-top:20px;
+  margin-top: 20px;
 }
-.sourceheader{
-  font-size: 35px;
+
+.sourceheader {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
   font-weight: 500;
- 
+
 }
+
+.sourcetext{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
 .aboutmeheader {
-  font-size: 25px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+
 }
 
-.aboutmeheader2{
+
+.aboutmeheader2 { 
+  font-family: 'Bebas Neue', cursive;
   font-size: 25px;
-  font-weight: 500;
+
 }
 
-.projectdesign{
+.projectdesign {
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
   font-weight: 700;
-  text-align: left; 
+  text-align: left;
+  color: black;
+}
+
+footer{
+  font-family: "Roboto", sans-serif;
+  
 }
