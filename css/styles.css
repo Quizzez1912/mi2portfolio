@@ -68,10 +68,13 @@ img {
 .text {
   font-size: 15px;
   color: #000000;
+  text-align: justify;
 }
 
 .projecttitle {
   font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .col {
@@ -101,4 +104,7 @@ footer {
 .sourceheader{
   font-size: 35px;
  
+}
+.aboutmeheader {
+  font-size: 25px;
 }
