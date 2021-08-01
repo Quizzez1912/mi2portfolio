@@ -73,7 +73,7 @@ img {
 }
 
 .projecttitle {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   text-align: left;
 }
@@ -114,4 +114,10 @@ footer {
 .aboutmeheader2{
   font-size: 25px;
   font-weight: 500;
+}
+
+.projectdesign{
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left; 
 }
