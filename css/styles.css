@@ -1,5 +1,5 @@
-.bodybg{
-  background-color:#F7F5FB;
+.bodybg {
+  background-color: #F7F5FB;
 }
 
 .headerul {
@@ -7,20 +7,19 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  
+
 }
 
 /*Headline Portfolio*/
 .headline {
   font-size: 40px;
   color: #000000;
-  margin-top:15px;
+  margin-top: 15px;
 }
 
 .header {
   background-color: #1d1d1d;
 }
-
 
 .links {
   text-align: center;
@@ -30,7 +29,7 @@
 .links a {
   text-decoration: none;
   color: inherit;
-  padding: 10px 100px;
+ 
 }
 
 .links p {
@@ -59,32 +58,47 @@ img {
   max-width: 100%;
   height: auto;
 }
-.area{
+
+.area {
   border-style: groove;
 }
 
 /* Basic text of the website*/
 
-.text{
+.text {
   font-size: 15px;
   color: #000000;
 }
 
-.projecttitle{
-  font-size: 20px;
+.projecttitle {
+  font-size: 25px;
 }
 
-.col{
-  margin-top:5px;
+.col {
+  margin-top: 5px;
 }
 
-footer{
+footer {
   list-style-type: none;
   border-top: 1px solid black;
   color: black;
   clear: both;
-    position: relative;
-    height: 25px;
-    bottom: 0 ;
-    
+  position: relative;
+  height: 25px;
+  bottom: 0;
+
+}
+
+.programmlogo {
+  float: left;
+}
+
+.source {
+  font-size:20px;
+  text-align: center;
+  margin-top:20px;
+}
+.sourceheader{
+  font-size: 35px;
+ 
 }
