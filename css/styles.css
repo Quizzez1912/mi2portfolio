@@ -13,6 +13,7 @@
 /*Headline Portfolio*/
 .headline {
   font-size: 40px;
+  font-weight: 600;
   color: #000000;
   margin-top: 15px;
 }
@@ -73,8 +74,8 @@ img {
 
 .projecttitle {
   font-size: 25px;
-  text-decoration: underline;
-  text-align: center;
+  font-weight: 700;
+  text-align: left;
 }
 
 .col {
@@ -103,8 +104,14 @@ footer {
 }
 .sourceheader{
   font-size: 35px;
+  font-weight: 500;
  
 }
 .aboutmeheader {
   font-size: 25px;
+}
+
+.aboutmeheader2{
+  font-size: 25px;
+  font-weight: 500;
 }
