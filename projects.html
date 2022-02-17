@@ -10,9 +10,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
+    <script type="text/javascript" src="js/main.js"></script>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/project.css" />
-  <script src="/js/main.js"></script>
+  <link rel="stylesheet" href="css/project.css">
+
 
   <title>Portfolio Robert Nor</title>
 
@@ -25,8 +26,10 @@
   <li><a class="hvr-underline-from-center" href="sources.html">Quellen</a></li>
 </ul>
 
-<body class="bodybg">
 
+<body class="bodybg">
+  <img src="img/scroll-arrow1.png" class="scrollBtn" onclick="topFunction();">
+  
   <div class="container">
     <div class="row">
       <p class="headline">Meine Projekte</p>
@@ -35,14 +38,14 @@
 
     <div class="row">
         <div class="col">
-          <div class=" square hvr-grow" onclick="scrollTo(mi1)">
-            <img src="/img/mi1-square.png">
+          <div class=" square hvr-grow" onclick="scrollToProject('mi1');">
+            <img src="img/mi1-square.png">
           </div>
         </div>
 
       <div class="col">
-        <div class="square hvr-grow ">
-            <img src="/img/mi2-square.png">
+        <div class="square hvr-grow " onclick="scrollToProject('mi2');">
+            <img src="img/mi2-square.png">
         </div>
       </div>
 
@@ -51,14 +54,14 @@
     <div class="row">
 
           <div class="col">
-            <div class="square hvr-grow ">
-              <img src="/img/gest2-square.png">
+            <div class="square hvr-grow " onclick="scrollToProject('gest2');">
+              <img src="img/gest2-square.png">
             </div>
           </div>
 
           <div class="col">
-            <div class="square hvr-grow ">
-              <img src="/img/datenbank-square.png">
+            <div class="square hvr-grow " onclick="scrollToProject('datenbanken');">
+              <img src="img/datenbank-square.png">
             </div>
           </div>
       
@@ -96,7 +99,7 @@
     <hr>
 
     <div class="row">
-      <div class="col  homeheader">
+      <div id = "gest2" class="col  homeheader">
         2. Semester Projekt | "It's time to be Strong" | Gestaltung 2
       </div>
     </div>
@@ -132,7 +135,7 @@
     <hr>
 
     <div class="row">
-      <div class="col homeheader">
+      <div id = "mi2" class="col homeheader">
         3. Semester Projekt | "Sushi Master" | Medieninformatik 2
       </div>
 
@@ -160,7 +163,7 @@
 
 
     <div class="row">
-      <div class="col homeheader">
+      <div id = "datenbank" class="col homeheader">
         4. Semester Projekt | "techdiscounter.de" | Datenbankbasierte Webanwendung 
 
 
@@ -207,7 +210,7 @@
 </body>
 
 <footer>
-  Robert Nor | 22 Jahre | Internationaler Studiengang Medieninformatik | Hochschule Bremen
+  Robert Nor | 23 Jahre | Internationaler Studiengang Medieninformatik | Hochschule Bremen
 </footer>
 
 </html>

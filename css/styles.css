@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .bodybg {
-  background-color: #F7F5FB;
+  /* background-color: #F7F5FB; */
+  background-color: #E2E2E2;
 }
 
 .headerul {
@@ -153,5 +154,14 @@ footer {
 
 footer{
   font-family: "Roboto", sans-serif;
+  
+}
+
+.scrollBtn {
+  /* display: none; */
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 99;
   
 }
