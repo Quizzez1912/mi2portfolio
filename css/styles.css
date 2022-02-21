@@ -111,6 +111,7 @@ footer {
 
 .programmlogo {
   float: left;
+  
 }
 
 .source {
@@ -154,8 +155,8 @@ footer {
 
 footer{
   font-family: "Roboto", sans-serif;
-  
 }
+
 
 .scrollBtn {
   /* display: none; */
@@ -164,4 +165,14 @@ footer{
   right: 0px;
   z-index: 99;
   
+}
+
+.programmlogoright {
+   align-self: center;
+
+}
+
+.codelogo{
+  margin-left: 50px;
+
 }
